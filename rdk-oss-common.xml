@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <yocto version="kirkstone" />
+  <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral" />
+
+  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="refs/tags/1.5.0">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
+  </project>
+
+  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="4adcde1f86518db5bcd50ace4e587e26fe21c9c8">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
+  <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_PRODUCT_LAYER"/>
+  </project>
+
+  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="refs/tags/4.8.0">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_OSS_REFERENCE"/>
+  </project>
+
+  <project groups="oe" name="meta-openembedded" path="meta-openembedded" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED"/>
+  </project>
+
+  <project groups="oe" name="poky" path="poky" remote="rdkcentral" revision="refs/tags/rdk-4.4.1">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
+  </project>
+
+  <project groups="oe" name="meta-python2" path="meta-python2" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_PYTHON2"/>
+  </project>
+
+</manifest>
