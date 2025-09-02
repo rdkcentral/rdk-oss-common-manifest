@@ -7,12 +7,12 @@
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
   </project>
 
-  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="4adcde1f86518db5bcd50ace4e587e26fe21c9c8">
+  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="85179e473b0845fc714fccd135461fa1fd9f3ebb">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
   <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_PRODUCT_LAYER"/>
   </project>
 
-  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="refs/tags/4.8.0">
+  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="62d880050b9e437527a7a71fdcd9cc654faf1cef">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_OSS_REFERENCE"/>
   </project>
 
