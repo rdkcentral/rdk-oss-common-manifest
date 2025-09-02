@@ -28,4 +28,8 @@
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_PYTHON2"/>
   </project>
 
+  <project groups="mixin" name="meta-lts-mixins" path="meta-lts-mixins" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_MIXIN" />
+  </project>
+
 </manifest>
