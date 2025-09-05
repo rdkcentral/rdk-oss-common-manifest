@@ -3,7 +3,7 @@
   <yocto version="kirkstone" />
   <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral" />
 
-  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="refs/tags/1.5.0">
+  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="develop">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
   </project>
 
@@ -12,7 +12,7 @@
   <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_PRODUCT_LAYER"/>
   </project>
 
-  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="62d880050b9e437527a7a71fdcd9cc654faf1cef">
+  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="develop">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_OSS_REFERENCE"/>
   </project>
 
