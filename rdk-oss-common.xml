@@ -7,7 +7,7 @@
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
   </project>
 
-  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="refs/tags/4.1.0">
+  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="feature/RDKE-1024-Add-Prebuilt-Generator-Support-for-Docker">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
   <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_PRODUCT_LAYER"/>
   </project>
@@ -30,6 +30,10 @@
 
   <project groups="mixin" name="meta-lts-mixins" path="meta-lts-mixins" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_MIXIN" />
+  </project>
+
+  <project groups="buildsupport" name="meta-stack-layering-support" path="meta-stack-layering-support" remote="rdkcentral" revision="refs/tags/3.1.6">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_STACK_LAYERING_SUPPORT"/>
   </project>
 
 </manifest>
