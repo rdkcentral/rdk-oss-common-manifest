@@ -3,16 +3,16 @@
   <yocto version="kirkstone" />
   <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral" />
 
-  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="refs/tags/1.7.0">
+  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="4ec59f274db48a1ff1db467f6e0ffd0bd78479c6">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
   </project>
 
-  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="refs/tags/4.1.0">
+  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="7075423468c12d094712adfaf1ac5432efbc57e2">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
   <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_PRODUCT_LAYER"/>
   </project>
 
-  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="refs/tags/4.10.0">
+  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="8bb89214121ebcfd59df479a43da7fddac4b92cd">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_OSS_REFERENCE"/>
   </project>
 
@@ -20,7 +20,7 @@
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED"/>
   </project>
 
-  <project groups="oe" name="poky" path="poky" remote="rdkcentral" revision="refs/tags/rdk-4.5.0">
+  <project groups="oe" name="poky" path="poky" remote="rdkcentral" revision="a69f5234545f2400f3d0c784d98cdf8ee5e29e81">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
   </project>
 
