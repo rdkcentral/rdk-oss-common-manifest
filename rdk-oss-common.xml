@@ -3,16 +3,16 @@
   <yocto version="kirkstone" />
   <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral" />
 
-  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="refs/tags/1.9.0">
+  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="refs/tags/1.10.0">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
   </project>
 
-  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="579c146a0861886fe8aaa64bca1aa725e4e7d6bb">
+  <project groups="layers" name="meta-oss-reference-development" path="meta-oss-reference-development" remote="rdkcentral" revision="refs/tags/4.2.2">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
   <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_PRODUCT_LAYER"/>
   </project>
 
-  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="refs/tags/4.13.0">
+  <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="refs/tags/4.14.0">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_OSS_REFERENCE"/>
   </project>
 
@@ -27,11 +27,21 @@
   <project groups="oe" name="meta-python2" path="meta-python2" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_PYTHON2"/>
   </project>
+
   <project groups="oe" name="meta-clang" path="meta-clang" remote="rdkcentral" revision="refs/tags/rdk-4.1.0">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_CLANG"/>
   </project>
+
   <project groups="mixin" name="meta-lts-mixins" path="meta-lts-mixins" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_MIXIN" />
+  </project>
+
+  <project groups="layers" name="meta-rdk-bluetooth" path="meta-rdk-bluetooth" remote="rdkcentral" revision="refs/tags/1.1.0">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_RDK_BLUETOOTH"/>
+  </project>
+
+  <project groups="layers" name="meta-binder" path="meta-binder" remote="rdkcentral" revision="refs/tags/1.1.0">
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_BINDER"/>
   </project>
 
 </manifest>
