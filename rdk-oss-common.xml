@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <yocto version="kirkstone" />
-  <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral" />
+  <yocto version="kirkstone"/>
+  <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
 
-  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="refs/tags/1.10.0">
+  <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="7f2b56ec0c12719da8894022cb4743d6984a500f">
   <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
   </project>
 
@@ -33,7 +33,7 @@
   </project>
 
   <project groups="mixin" name="meta-lts-mixins" path="meta-lts-mixins" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
-  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_MIXIN" />
+  <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_MIXIN"/>
   </project>
 
   <project groups="layers" name="meta-rdk-bluetooth" path="meta-rdk-bluetooth" remote="rdkcentral" revision="refs/tags/1.1.0">
