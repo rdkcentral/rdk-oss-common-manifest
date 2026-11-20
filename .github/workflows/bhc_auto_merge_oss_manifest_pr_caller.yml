@@ -10,8 +10,12 @@ on:
   issues:
     types: [labeled]
 
+permissions: {}
+
 jobs:
   call_oss_auto_merge_workflow:
-    uses: rdk-e/build_tools_workflows/.github/workflows/bhc_auto_merge_oss_manifest_pr.yml@develop
+    uses: rdkcentral/build_tools_workflows/.github/workflows/auto_merge_manifest_pr.yml@develop
+    with:
+      auto_merge_label: oss-auto-merge
     secrets:
-      rdke_github_token: ${{ secrets.RDKE_GITHUB_TOKEN }}
+      RDKCM_RDKE: ${{ secrets.RDKCM_RDKE }}
