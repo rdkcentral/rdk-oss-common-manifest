@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <yocto version="kirkstone" />
+  <yocto version="wrynose" />
   <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral" />
 
   <project groups="layers" name="meta-rdk-auxiliary" path="meta-rdk-auxiliary" remote="rdkcentral" revision="topic/fr_yocto6.0_mig">
